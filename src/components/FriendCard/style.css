@@ -1,0 +1,44 @@
+.card {
+  background: #fff;
+  border-radius: 2px;
+  height: 325px;
+  margin: 1rem;
+  position: relative;
+  width: 325px;
+  box-shadow: 0 3px 6px #999, 0 3px 6px #999;
+  text-align: center;
+  border:lightskyblue solid 5px;
+}
+
+.card:hover {
+  cursor: pointer;
+  box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  transition: 0.2s;
+}
+
+.card > .img-container {
+  height: 90%;
+  overflow: hidden;
+  text-align: center;
+  background: white;
+}
+.card > .img-container > img {
+  width: 60%;
+  margin-top: 2rem;
+}
+
+.card > .content {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  font-size: 15px;
+}
+
+.card > .content > ul {
+  list-style-type: none;
+}
+
+.card > .content > p {
+  padding: 10x;
+  font-size: 24px;
+}

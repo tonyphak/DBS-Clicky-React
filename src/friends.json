@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "Goku",
+    "image": "https://pngimage.net/wp-content/uploads/2018/05/dragon-ball-super-goku-png-7.png"
+  },
+  {
+    "id": 2,
+    "name": "Vegeta",
+    "image": "https://vignette.wikia.nocookie.net/dragonball/images/9/99/Vegeta_true_super_saiyan_god_by_armorkingtv21-d6nm4t7.png/revision/latest/scale-to-width-down/452?cb=20140327212626"
+  },
+  {
+    "id": 3,
+    "name": "Trunks",
+    "image": "https://static.comicvine.com/uploads/scale_super/11129/111294242/6235238-futuretrunks.png"
+  },
+  {
+    "id": 4,
+    "name": "Gohan",
+    "image": "https://i.pinimg.com/originals/c2/69/08/c269083d2dea6ac11260377adca26830.png"
+  },
+  {
+    "id": 5,
+    "name": "Broly",
+    "image": "https://static.giantbomb.com/uploads/scale_small/15/155548/2280362-lss3_broly.png"
+  },
+  {
+    "id": 6,
+    "name": "Beerus",
+    "image": "https://i.pinimg.com/originals/f5/5c/08/f55c08ac34e4bd21f21a09cbbd8fc5ca.png"
+  },
+  {
+    "id": 7,
+    "name": "Piccolo",
+    "image": "https://vignette.wikia.nocookie.net/dragonball/images/3/3c/Piccolo_universe_survival_dbs_by_saodvd-darwk6w.png/revision/latest?cb=20170312001625"
+  },
+  {
+    "id": 8,
+    "name": "Frieza",
+    "image": "https://i.pinimg.com/originals/d8/e6/92/d8e69248585f2a5f0cc5ae0706b7cfcd.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Hit",
+    "image": "https://i.pinimg.com/originals/0d/01/d2/0d01d26ab80ba88227e98389208612fc.png"
+  },
+  {
+    "id": 10,
+    "name": "Buu",
+    "image": "https://vignette.wikia.nocookie.net/villains/images/8/8a/Fat_Buu04.png/revision/latest?cb=20170123131118"
+  },
+  {
+    "id": 11,
+    "name": "Black Goku",
+    "image": "https://vignette.wikia.nocookie.net/villains/images/2/2c/Goku_Black.png/revision/latest?cb=20170303234020"
+  },
+  {
+    "id": 12,
+    "name": "Bulma",
+    "image": "https://vignette.wikia.nocookie.net/dragon-ball-super1627/images/1/1c/Bulma.png/revision/latest?cb=20160411021626"
+  }
+]
