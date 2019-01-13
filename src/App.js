@@ -23,7 +23,7 @@ class App extends Component {
   };
   
   //when you click on a card ... the friend is taken out of the array
-  imageClick = (event) => {
+  cardClick = (event) => {
     const currentFriend = event.target.alt;
     console.log(currentFriend);
     const friendClicked = this.state.clickedFriends.indexOf(currentFriend) > -1;
@@ -74,7 +74,7 @@ class App extends Component {
         <Header/>
         {this.state.friends.map(friend => (
           <FriendCard
-            addCounter={this.imageClick}
+            addCounter={this.cardClick}
             id={friend.id}
             key={friend.id}
             image={friend.image}
