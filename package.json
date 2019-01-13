@@ -1,8 +1,8 @@
 {
-  "homepage": "https://github.com/tonyphak/DBS-Clicky-React",
   "name": "clicky-game",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://tonyphak.github.io/DBS-Clicky-React/",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "react": "^16.7.0",
