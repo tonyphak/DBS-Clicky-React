@@ -22,13 +22,49 @@ class App extends Component {
     };
   };
   
-  // function to track score after clicking
-  addCounter = (event) =>{
-    //clicking card will add to the score
-    //clicking card will assign the card a number 1. If the clicked card already has number 1 then player loses and random sorts
-  }
+  //when you click on a card ... the friend is taken out of the array
+  imageClick = (event) => {
+    const currentFriend = event.target.alt;
+    console.log(currentFriend);
+    const friendClicked = this.state.clickedFriends.indexOf(currentFriend) > -1;
 
-  // Map over this.state.friends and render a FriendCard component for each friend object
+    //if you click on a friend that has already been selected, the game is reset and cards reordered
+    if (friendClicked) {
+      this.setState({
+        friends: this.state.friends.sort(() => 0.5 - Math.random()),
+        clickedFriends: [],
+        score: 0
+      });
+        alert("You lose");
+        this.highScore();
+
+    //if you click on an available friend, your score is increased and cards reordered
+    } else {
+      this.setState(
+        {
+          friends: this.state.friends.sort(function(a, b) {
+            return 0.5 - Math.random();
+          }),
+          clickedFriends: this.state.clickedFriends.concat(currentFriend),
+          score: this.state.score + 1
+        },
+    //if you get all 12 friend corrent you get a congrats message and the game resets        
+        () => {
+          if (this.state.score === 12) {
+            alert("Yay! You Win!");
+            this.highScore();
+            this.setState({
+              friends: this.state.friends.sort(() => 0.5 - Math.random()),
+              clickedFriends: [],
+              score: 0
+            });
+          }
+        }
+      );
+    }
+  };
+
+// Map over this.state.friends and render a FriendCard component for each friend object
   render() {
     return (
       <Wrapper>
@@ -38,7 +74,7 @@ class App extends Component {
         <Header/>
         {this.state.friends.map(friend => (
           <FriendCard
-            addCounter={this.addCounter}
+            addCounter={this.imageClick}
             id={friend.id}
             key={friend.id}
             image={friend.image}
