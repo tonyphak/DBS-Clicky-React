@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/tonyphak/DBS-Clicky-React/precache-manifest.2d196bc243b81d926f6e1c2d814805cd.js"
+  "/DBS-Clicky-React/precache-manifest.a3a24f6800655c8a5660b877a583c2e7.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/tonyphak/DBS-Clicky-React/index.html", {
+workbox.routing.registerNavigationRoute("/DBS-Clicky-React/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
